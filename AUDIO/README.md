@@ -1,6 +1,6 @@
 # Audio Scripts
 
-This script allows the user to display text to an LCD screen attached to the relevant pins.
+This script allows the user to play mp3 audio files on a Raspberry Pi.
 
 For wiring, check `/assets`
 
