@@ -18,7 +18,7 @@ audio = mp3(files_directory="./AudioFiles/",sample_rate=48000,bit_depth= -16,cha
 ```
 - files_directory = *ABSOLUTE DIRECTORY TO AUDIO FILES*
 - sample_rate = *PLAYBACK SMAPLE RATE* (Should match the devices playback sample-rate)
-- bit_depth = -*PLAYBACK BIT DEPTH* (Should match the devices playback bit-dpeth)
+- bit_depth = -*PLAYBACK BIT DEPTH* (Should match the devices playback bit-depth)
 - channels = *CHANNEL COUNT* (1 = Mono, 2 = Stereo)
 - buffer_size = *BUFFEr SIZE*
 
@@ -26,7 +26,7 @@ audio = mp3(files_directory="./AudioFiles/",sample_rate=48000,bit_depth= -16,cha
 Play an audio file
 
 ```python
-audio.play(file_name="test.mp3",volume.0.85)
+audio.play(file_name="test.mp3",volume=0.85)
 ```
 
 ### stop
