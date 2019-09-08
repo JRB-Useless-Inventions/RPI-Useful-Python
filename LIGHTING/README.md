@@ -27,6 +27,7 @@ from RPI-Useful-Python-master.LIGHTING.led_driver import WS2182
 
 led = WS2182b(pixels=2)
 ```
+pixels = *NUMBER OF LED'S*
 
 ### flash
 Sends a short pulse to the LED's
