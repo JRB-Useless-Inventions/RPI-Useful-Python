@@ -15,7 +15,7 @@ This script allows the user to detect when an object is detected to be in front 
 For wiring, check `/assets/UltraSonic`
 
 ## Performance Notes
-Ultrasonic is proven to only work sufficiently when an object is presnetd flat. When the object is angled, the distance is measured innaccuratley. This module is only to be used if the threshold set is a large set (between 2cm to 30 cm) and the distance is not of critical importance.
+Ultrasonic is proven to only work sufficiently when an object is presented flat. When the object is angled, the distance is measured innaccuratley. This module is only to be used if the threshold set is a large set (between 2cm to 30 cm) and the distance is not of critical importance.
 
 ## How It Works
 When an object is held in front of the sensor, if the object is between the `min_distance` and `max_distance` threshold, the `listener` event flag is raised. This loop runs for as long as the thread is alive, constantly checking for an object. 
